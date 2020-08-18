@@ -96,6 +96,7 @@ $  oci db autonomous-database list --db-version 19c --compartment-id ${COMPARTME
 &#91;"adbscli19c","ocid1.autonomousdatabase.oc1.eu-frankfurt-1.abt***bpsq","AVAILABLE"]
 $
 ````
+## Enable Autonomous Data Guard ##
 
 I have then stored the OCID from the new pvanpuymcli database in my ADBID variable and to enable it for Autonomous Data Guard you just issue following command
 
