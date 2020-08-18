@@ -1,0 +1,16 @@
+{
+    "tutorials": [
+        {
+            "title": "Workshop Overview",
+            "description":"Workhop Overview",
+            "publisheddate": "08/13/2020",
+            "filename":"../Labs/about-the-workshop/content.md"
+        },
+        {
+            "title": "Lab 1: The basic 19c Data Guard setup",
+            "description":"Setup a simple 19c Data Guard Lab Environment",
+            "publisheddate": "08/13/2020",
+            "filename":"../Labs/G-lab010/content.md"
+        }
+    ]
+}
