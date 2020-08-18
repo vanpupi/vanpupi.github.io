@@ -16,12 +16,6 @@ This hands-on workshop focuses on **Creating Data Guard and Active Data Guard fo
 - Access to a laptop or a desktop
     - Requires Microsoft Remote Desktop software
 
-## Agenda
-
-- **Lab 001 :** Create a very basic 19c Data Guard setup
-
-We need 2 machines, either in the cloud or on premises to run this Lab. Those machines need to have an 19c Enterprise Edition Oracle Home with a default listener configured. On the first Machine a CDB needs to be created.
-
 
 ## Access the labs
 
