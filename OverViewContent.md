@@ -9,6 +9,6 @@ Enjoy learning!
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. Solution: Open this lab inside the browser inside the Remote Desktop session.
 
 * Autonomous Data Guard Workshop
-* [Data Guard and Active Data Guard workshop for Cloud (DBCS)](./General/)
-* General / On-premises Workshop Data Guard and Active Data Guard
-* The Hybrid lab! The lab for Hybrid configurations between on-premises and the OCI.
+* Data Guard and Active Data Guard workshop for Cloud (DBCS)
+* [General / On-premises Workshop Data Guard and Active Data Guard](./General/)
+* [The Hybrid lab! The lab for Hybrid configurations between on-premises and the OCI](./Hybrid)
