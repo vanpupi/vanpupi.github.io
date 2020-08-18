@@ -11,6 +11,12 @@
             "description":"Setup the 19c Autonomous Data Guard using the GUI",
             "publisheddate": "08/13/2020",
             "filename":"../Labs/A-lab010/content.md"
+        },
+        {
+            "title": "Lab 2: 19c Autonomous Data Guard setup using the CLI",
+            "description":"Setup the 19c Autonomous Data Guard using the CLI",
+            "publisheddate": "08/13/2020",
+            "filename":"../Labs/A-lab020/content.md"
         }
     ]
 }

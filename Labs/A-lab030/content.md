@@ -14,5 +14,5 @@ The following is intended to outline our general product direction. It is intend
 
 ## Perform the role transistion
 
-
+First step is to navigate to the ADB on which you want to perform the role transition
 
