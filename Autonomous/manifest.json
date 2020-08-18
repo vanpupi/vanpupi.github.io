@@ -1,0 +1,16 @@
+{
+    "tutorials": [
+        {
+            "title": "Workshop Overview",
+            "description":"Workhop Overview",
+            "publisheddate": "08/13/2020",
+            "filename":"../Labs/about-the-workshop/content.md"
+        },
+        {
+            "title": "Lab 1: 19c Autonomous Data Guard setup using the GUI",
+            "description":"Setup the 19c Autonomous Data Guard using the GUI",
+            "publisheddate": "08/13/2020",
+            "filename":"../Labs/A-lab010/content.md"
+        }
+    ]
+}
