@@ -5,7 +5,6 @@ In this lab we will setup 19c Data Guard between a primary server and a secondar
 This Lab assumes that there are 2 identical servers available. For example the 19c Database Market place image from the OCI. 
 
 
-
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. Solution: Open this lab inside the browser inside the Remote Desktop session.
 
 ## Disclaimer ##

@@ -80,6 +80,7 @@ ${ORACLE_HOME}/bin/sqlplus -s '/ as sysdba' << EOF
  alter user sys identified by "${NEWPASS}" container=all;
 EOF</copy>
 ````
+
 For this lab, change it to Welc0me2##
 The 0 is a zero.
 
