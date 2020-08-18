@@ -10,5 +10,5 @@ Enjoy learning!
 
 * Autonomous Data Guard Workshop
 * Data Guard and Active Data Guard workshop for Cloud (DBCS)
-* [General / On-premises Workshop Data Guard and Active Data Guard](./General/)
-* [The Hybrid lab! The lab for Hybrid configurations between on-premises and the OCI](./Hybrid)
+* <a href="./General/" target="_blank">General / On-premises Workshop Data Guard and Active Data Guard</a>
+* <a href="./Hybrid" target="_blank">The Hybrid lab! The lab for Hybrid configurations between on-premises and the OCI</a>
