@@ -1,8 +1,6 @@
 # Setup Autonomous Data Guard 19c 
 
-In this lab we will setup 19c Data Guard between a primary server and a secondary server. 
-
-This Lab assumes that there are 2 identical servers available. For example the 19c Database Market place image from the OCI. 
+In this lab we will setup 19c Autonomous Data Guard between a primary Autonomous Database (ADB) and we will add the Autonomous standby.
 
 
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. Solution: Open this lab inside the browser inside the Remote Desktop session.
@@ -12,7 +10,7 @@ The following is intended to outline our general product direction. It is intend
 
 ## Setup the ADB-S Database
 
-Create your ADB-S Database. You can do this by clicking the “Create autonomous Database” button.
+Create your ADB-S Database. You can do this by clicking the “Create autonomous Database” button. 
 
 ![](./images/create_adbs_01.png)
 
@@ -24,7 +22,7 @@ Make sure you select a 19c database
 
 ![](./images/create_adbs_03.png)
 
-And of course you will need a good password.
+And of course you will need a good password. 
 
 ![](./images/create_adbs_04.png)
 
