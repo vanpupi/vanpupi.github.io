@@ -13,7 +13,7 @@ The following is intended to outline our general product direction. It is intend
 
 ## Prerequisites ##
 
-This lab uses scripts to setup Data Guard we will create scripts, per node. When all are executed the environment will be a very basic working Data Guard standby environment. 
+This lab uses multiple scripts to setup Data Guard we will create scripts, per node. When all are executed the environment will be a very basic working Data Guard standby environment. 
 
 As a prerequisite, copy the scripts located in the node1 directory to `/home/oracle` on the first node
 ![](./images/scriptdir_node1.png)
