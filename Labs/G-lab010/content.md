@@ -2,7 +2,7 @@
 
 In this lab we will setup 19c Data Guard between a primary server and a secondary server. 
 
-This Lab assumes that there are 2 identical servers available. For example the 19c Database Market place image from the OCI. 
+This Lab assumes that there are 2 identical servers available. For example the 19c Database Market place image from the OCI or a virtual box image. 
 
 It is preferred not to use Database names containing either Primary or Standby, nor any abbreviations. Altough it is just a name, this can become confusing when Role transitions will be performed. You could potentially end up with a primary database which is called "Standby", confusing, isn't it? 
 
