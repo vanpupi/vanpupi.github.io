@@ -19,28 +19,34 @@
             "filename":"../Labs/C-lab020/content.md"
         },
         {
-            "title": "Lab 3: Performing a switchover",
-            "description":"Perform a switchover",
+            "title": "Lab 3: Connecting to the Database ",
+            "description":"Connection to the databases",
             "publisheddate": "26/02/2021",
             "filename":"../Labs/C-lab030/content.md"
         },
         {
-            "title": "Lab 4: Perform a Failover ",
-            "description":"Perform a Failover",
+            "title": "Lab 4: Performing a switchover",
+            "description":"Perform a switchover",
             "publisheddate": "26/02/2021",
             "filename":"../Labs/C-lab040/content.md"
         },
         {
-            "title": "Lab 5: Enable Active Data Guard DML Redirection ",
-            "description":"Enable Active Data Guard DML Redirection",
+            "title": "Lab 5: Perform a Failover ",
+            "description":"Perform a Failover",
             "publisheddate": "26/02/2021",
             "filename":"../Labs/C-lab050/content.md"
         },
         {
-            "title": "Lab 6: Automatic block media recovery",
-            "description":"Learn about Automatic block media recovery ",
+            "title": "Lab 6: Enable Active Data Guard DML Redirection ",
+            "description":"Enable Active Data Guard DML Redirection",
             "publisheddate": "26/02/2021",
             "filename":"../Labs/C-lab060/content.md"
+        },
+        {
+            "title": "Lab 7: Automatic block media recovery",
+            "description":"Learn about Automatic block media recovery ",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab070/content.md"
         }
     ]
 }
