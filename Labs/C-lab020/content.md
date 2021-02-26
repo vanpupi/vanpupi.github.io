@@ -1,88 +1,58 @@
 # Creation of the primary Database
 
-In this lab we will setup will create the primary database.
+In this lab we will setup will create the standby database.
 
 
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. 
 
 
-## Create the primary database
+## Create the Standby database
 
 To create the primary database we need to follow a wizard. 
-Navigate in the hamburger menu at the left top to **Bare Metal, VM and Exadata**
 
-![](./images/menu-dbcs.png)
+Lab 1 ended with this screen:
+![](./images/Create_dbcs_prim_11.png)
 
-This will bring you to the Database As A Service DB Systems page.
-To start creating the primary database, click the **Create DB System** Button.
+Scroll down to the part with the Databases in the DB System and click the Hamburger Menu and select **Enable Data Guard**
+![](./images/Create_stby_DB_01.png)
 
-![](./images/Create_DB_system_button.png)
+This will bring you to the wizard that will create the Standby database. The first part, you cannot modify this. The Standby database will be created with the Maximum Performance protection mode, meaning that it will use Asynchronous redo transport. 
+![](./images/Create_stby_DB_02.png)
 
-Verify that at the top, you have selected the correct compartment that you have been assigned to.
-Then you can start to fill in the required information. This Workshop can be run in any region with 3 Availabilty domains. 
-Use following information to enter in the wizard.
+This is not an issue. Even not when SYNC is required, this can be altered manually if needed.
 
-* Name of the DB System: 	**ADGHOLAD1**
-* Select the first AD in the region you are located.
-* Choose the Virtual Machine Shape type.
-* Select the VM.Standard2.2 shape. If this is not the default, use the "Change Shape" button to change this. 
+Next step is to define the Peer DB System.
+Use following data to create the Peer DB System.
+* Display Name: ADGHOLAD2
+* Region: use the same region as you have created the primary database. When all goes right, it populates correctly automatically.
+* Availability Domain: Choose the second availability domain. In the Frankfurt Example this is AD2.
+* Do not change the shape. By default the tooling selects the same shape as the primary shape. This helps to ensure performance when a role transition is performed.
 
-Up to now, the screen should look similar to this.
+![](./images/Create_stby_DB_03.png)
 
-![](./images/Create_dbcs_prim_01.png)
+Provide a hostname prefix: **VMADGHOLAD2**
 
-Then we scroll further down and we use following information:
-* Total node count: 1
-* Oracle Database Software Edition: Enterprise Edition Extreme Performance
-* Storage Management: Logical Volume Manager
+![](./images/Create_stby_DB_04.png)
 
-![](./images/Create_dbcs_prim_02.png)
+Then all what is left to do is enter the Primary Database password.
+Remember that it was set to **WelC0me2##**
+![](./images/Create_stby_DB_05.png)
 
-We choose the Logical Volume Manager for 2 reasons. The creation of the database is faster but also, we need access to the datafiles for the Excercise about Automatic Block media recovery later in the Workshop where we will corrupt a block and let Active Data Guard repair it. 
-We need Enterprise Edition Extreme Performance to have access to Active Data Guard. Enterprise Edition High Performance will give you access to Data Guard with the mounted physical standby.
- 
-We leave the storage Default:
+Then click "Enable Data Guard" and that are all the steps needed to setup Data Guard in a Database As a Service.
 
-![](./images/Create_dbcs_prim_03.png)
+First the Peer DB System will be created and then Data Guard will be instantiated.
+![](./images/Create_stby_DB_06.png)
 
-And we will let the cloud create the SSH Key pair for us.
+Click on the Display name and that brings you to the DB System.
+![](./images/Create_stby_DB_07.png)
 
-![](./images/Create_dbcs_prim_04.png)
+Then scroll down to the Databases section of the page
+![](./images/Create_stby_DB_08.png)
 
-Make sure to download both of the keys **NOW** and store them locally on a safe place so you do not loose them and find them back easily.
+Then Click on the Database Name, in this example DGHOL.
+That will bring you to the Database details where you can find that the Standby Database has been succesfully create and that the Data Guard status is **Enabled**
 
-For the license, pick "License Included"
+![](./images/Create_stby_DB_09.png)
 
-![](./images/Create_dbcs_prim_05.png)
-
-With regards to the network configuration, pick the Virtual Cloud network you have created with the setup of your compartment and also specified the already existing client subnet. 
-
-For the Hostname prefix, use: **VMADGHOLAD1**
-
-![](./images/Create_dbcs_prim_06.png)
-
-Next step is to configure our database. Go further by clicking the Next button.
-
-Use following information to create the database.
-* Database name: DGHOL
-* Database image: Oracle Database 19c
-* PDB name: mypdb
-
-![](./images/Create_dbcs_prim_07.png)
-
-As the password use: **WelC0me2##**
-
-![](./images/Create_dbcs_prim_08.png)
-
-Leave all the rest default and click the "Create DB system" Button.
-
-![](./images/Create_dbcs_prim_09.png)
-
-This will bring you to the DB System home page which will be provisioning. 
-
-![](./images/Create_dbcs_prim_10.png)
-
-When this step has been completed, then you have succesfully created the primary database.
-
-This will take some time (20 to 45 minutes) so it is good to continue with Lab 2: Prepare the host for FSFO. 
+When this step has been completed, then you have succesfully setup a basic Data Guard configuration in the Oracle Cloud Infrastructure in Maximum Performance mode.
 
