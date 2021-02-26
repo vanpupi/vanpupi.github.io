@@ -12,7 +12,6 @@ This hands-on workshop focuses on **Creating Active Data Guard 19c in Oracle Clo
 	- Oracle Cloud Infrastructure 
     	- Provided by the instructor for instructor-led workshops
     	- A HOL version is being created to run stand-alone without instructor
-	- A virtualbox environment 
 - Access to a laptop or a desktop 
  
 
