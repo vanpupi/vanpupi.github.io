@@ -14,7 +14,7 @@ This hands-on workshop focuses on **Creating Active Data Guard 19c in Oracle Clo
     	- A HOL version is being created to run stand-alone without instructor
 	- A virtualbox environment 
 - Access to a laptop or a desktop 
-
+ 
 
 ## Access the labs
 
