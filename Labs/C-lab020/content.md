@@ -84,10 +84,5 @@ This will bring you to the DB System home page which will be provisioning.
 
 When this step has been completed, then you have succesfully created the primary database.
 
-This will take some time (20 to 45 minutes).
-
-Afterwards the Database is available
-
-![](./images/Create_dbcs_prim_11.png)
-
+This will take some time (20 to 45 minutes) so it is good to continue with Lab 2: Prepare the host for FSFO. 
 
