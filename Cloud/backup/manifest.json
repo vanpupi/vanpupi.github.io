@@ -1,0 +1,64 @@
+{
+    "tutorials": [
+        {
+            "title": "Workshop Overview",
+            "description":"Workhop Overview",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-about-the-workshop/content.md"
+        },
+        {
+            "title": "Lab 1: Creation of the primary Database",
+            "description":"Setup the 19c Primary Database",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab010/content.md"
+        },
+        {
+            "title": "Lab 2: Prepare the host for FSFO ",
+            "description":"Setup host for FSFO",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab020/content.md"
+        },
+        {
+            "title": "Lab 3: Creation of the Standby ",
+            "description":"Setup the standby Database",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab030/content.md"
+        },
+        {
+            "title": "Lab 4: Enable Fast-Start Failover ",
+            "description":"Enable Fast-Start Failover",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab040/content.md"
+        },
+        {
+            "title": "Lab 5: Enable Active Data Guard DML Redirection ",
+            "description":"Enable Active Data Guard DML Redirection",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab050/content.md"
+        },
+        {
+            "title": "Lab 6: Performing a switchover",
+            "description":"Perform a switchover",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab060/content.md"
+        },
+        {
+            "title": "Lab 7: Perform a Failover ",
+            "description":"Perform a Failover",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab070/content.md"
+        },
+        {
+            "title": "Lab 8: Trigger an automated failover ",
+            "description":"Trigger a Fast-Start Failover",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab080/content.md"
+        },
+        {
+            "title": "Lab 9: Automatic block media recovery",
+            "description":"Learn about Automatic block media recovery ",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab090/content.md"
+        }
+    ]
+}
