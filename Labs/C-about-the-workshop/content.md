@@ -13,7 +13,10 @@ This hands-on workshop focuses on **Creating Active Data Guard 19c in Oracle Clo
     	- Provided by the instructor for instructor-led workshops
     	- A HOL version is being created to run stand-alone without instructor
 - Access to a laptop or a desktop 
- 
+
+## Disclaimer ##
+The following is intended to outline our general product direction. It is intended for information purposes only, and may not be incorporated into any contract. It is not a commitment to deliver any material, code, or functionality, and should not be relied upon in making purchasing decisions. The development, release, and timing of any features or functionality described for Oracle’s products remains at the sole discretion of Oracle.
+
 
 ## Access the labs
 
