@@ -46,12 +46,18 @@ select name,replicated,guarantee_flashback_database from v$restore_point;
 Do the same on the standby database.
 ![](./images/RP03.png)
 
-The restore point is replicated to the standby and has been suffixed with `_PRIMARY` and the replicated column on the primary indicates this has been performed.
+The restore point drop is now replicated to the standby and has been suffixed with `_PRIMARY` and the replicated column on the primary indicates this has been performed.
 
-Next drop the restore point in the primary database
+## Drop the restore point
+
+Next drop the restore point in the primary database with following query 
+````
+drop restore point testrp;
+````
+
 ![](./images/RP04.png)
 
-check the restore points with following query
+Check the restore points with following query
 
 ````
 select name,replicated,guarantee_flashback_database from v$restore_point;
