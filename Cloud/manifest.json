@@ -47,6 +47,19 @@
             "description":"Learn about Automatic block media recovery ",
             "publisheddate": "26/02/2021",
             "filename":"../Labs/C-lab070/content.md"
+        },
+        {
+            "title": "Lab 8: Restore point propagation",
+            "description":"Learn about Restore point propagation ",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab080/content.md"
+        },
+        {
+            "title": "Lab 9: Change the SYS password",
+            "description":"Change the SYS password",
+            "publisheddate": "26/02/2021",
+            "filename":"../Labs/C-lab090/content.md"
         }
+        
     ]
 }
