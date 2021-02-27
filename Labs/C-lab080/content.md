@@ -49,6 +49,7 @@ Do the same on the standby database.
 The restore point is replicated to the standby and has been suffixed with `_PRIMARY` and the replicated column on the primary indicates this has been performed.
 
 Next drop the restore point in the primary database
+![](./images/RP04.png)
 
 check the restore points with following query
 
@@ -57,7 +58,7 @@ select name,replicated,guarantee_flashback_database from v$restore_point;
 ````
 
 Do the same on the standby database.
-![](./images/RP03.png)
+![](./images/RP05.png)
 
 ## Summary
 You have now succesfully used Active Data Guard Restore point propagation.
