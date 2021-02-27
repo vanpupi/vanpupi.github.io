@@ -1,4 +1,4 @@
-# Creation of the Standby Database
+# Creation of the primary Database
 
 In this lab we will setup will create the standby database.
 
