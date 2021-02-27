@@ -26,6 +26,7 @@ Using SQL Developer, you can drag and drop the panes so that they are next to ea
 
 
 Verify the roles with following Query:
+
 `Select name, db_unique_name, database_role from v$database;`
 
 Enter this query in both panes and click the run button to see the result.
@@ -97,6 +98,7 @@ After some time the role transition finished and the state is Available again.
 ## Verify the database roles in the database
 
 Using SQL Developer, verify the roles again with following Query:
+
 `Select name, db_unique_name, database_role from v$database;`
 
 Enter this query in both panes and click the run button to see the result.
