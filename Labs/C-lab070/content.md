@@ -17,8 +17,11 @@ In this lab we will introduce some block corruption in the database and see Acti
 First download the 3 sql scripts we will need in this Lab.
 
 [01_abmr.sql](./scripts/01_abmr.sql)
+
 [02_abmr.sql](./scripts/02_abmr.sql)
+
 [03_abmr.sql](./scripts/03_abmr.sql)
+
 
 Also find back the ssh keys which were created in Lab 1 and Lab 2 in order to connect to the hosts where the primary and standby database are located. 
 
