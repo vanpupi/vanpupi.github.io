@@ -59,13 +59,6 @@
             "description":"Change the SYS password",
             "publisheddate": "26/02/2021",
             "filename":"../Labs/C-lab090/content.md"
-        },
-        {
-            "title": "Lab 10: Explore the Data Guard Broker",
-            "description":"Explore Data Guard broker",
-            "publisheddate": "26/02/2021",
-            "filename":"../Labs/C-lab090/content.md"
         }
-        
     ]
 }
