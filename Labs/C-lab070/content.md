@@ -178,7 +178,8 @@ Monitor the alertlogs closely while executing this step.
 
 In the sqlplus window we will see this
 
-````SQL> @03_abmr.sql
+````
+SQL> @03_abmr.sql
 SQL> alter system flush buffer_cache;
 
 System altered.
