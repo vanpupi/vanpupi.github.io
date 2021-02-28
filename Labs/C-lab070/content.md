@@ -178,8 +178,7 @@ Monitor the alertlogs closely while executing this step.
 
 In the sqlplus window we will see this
 
-
-`
+````
 SQL> @03_abmr.sql
 SQL> alter system flush buffer_cache;
 
@@ -194,9 +193,7 @@ This will have a problem
 1 row selected.
 
 SQL>
-`
-
-
+````
 
 and in alertlog from the primary database we notice that the Automated block media recovery took place.
 
