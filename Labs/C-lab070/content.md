@@ -195,6 +195,7 @@ This will have a problem
 SQL>
 ````
 
+
 and in alertlog from the primary database we notice that the Automated block media recovery took place.
 
 ````
