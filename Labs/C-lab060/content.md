@@ -53,7 +53,7 @@ Then use following query to create a common user in all the pdbs.
 create user C##HOLUSER identified by "WelC0me2##" container = all;
 ````
 
-And grant this user the most powerful rights he can achieve. In a production environment, evaluate carefully the rights common users need. This is just for demonstration purposes that we give this user all the rights possible.
+Grant this user the minimum privileges required to perform its duties. In a production environment, evaluate carefully the rights common users need. This is just for demonstration purposes that we give this user all the rights possible. For this lab and ease of things, we grant powerful role to the user.
 
 ````
 grant connect,resource, dba to C##HOLUSER;
@@ -92,7 +92,7 @@ At this point, the databases are enabled for Active Data Guard DML redirection.
 
 ## Create a table
 
-To create a table in the common users' schema, it is necessary to create a connection as the common user. This can be done the same way as described in Lab 3. Instead of specifying the username SYS and role SYSDBA, you now specify C##HOLUSER and leave the role default. 
+To create a table in the common users's schema, it is necessary to create a connection as the common user. This can be done the same way as described in Lab 3. Instead of specifying the username SYS and role SYSDBA, you now specify C##HOLUSER and leave the role default. 
 
 ![](./images/DML04.png)
 

@@ -1,6 +1,6 @@
 # Connection to the Databases
 
-In this lab we will setup will create the standby database.
+In this lab we will set up will create the standby database.
 
 
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. 
@@ -8,8 +8,8 @@ In this lab we will setup will create the standby database.
 
 ## Connection to the Databases
 
-We will use SQL Developer to connect to our new Database System with a primary and a standby database. 
-You can run this tool from any desktop that has network connectivity to the Database System.
+We will use SQL Developer to connect to our new database system with a primary and a standby database. 
+You can run this tool from any desktop that has network connectivity to the database system.
 
 You can download SQL Developer from this link: [SQL Developer Home page](https://www.oracle.com/be/database/technologies/appdev/sqldeveloper-landing.html) 
 
@@ -19,7 +19,7 @@ When you first opened SQL Developer, the screen looks like this:
 
 ## Create the Connection to the primary ##
 
-First we need to know the Service name from the Primary Database and also the IP address it listens to. 
+First we need to know the service name from the primary Database and also the IP address it listens to. 
 
 To get that information, navigate to the Overview
 -> Bare Metal, VM and Exadata
@@ -33,7 +33,7 @@ There you click the **DB Connection** button and the Database Connection informa
 
 ![](./images/DB_connection_03.png)
 
-Click the **Show** Hyperlink from the Easy Connect format and make a note of the connection string. The part after the / (slash) is the Service name. Make a copy of this on the clipboard or make sure to have this information noted down. Then close this window.
+Click the **Show** Hyperlink from the Easy Connect format and make a note of the connection string. The part after the / (slash) is the service name. Make a copy of this on the clipboard or make sure to have this information noted down. Then close this window.
 
 The second thing we need to know to connect to the database is the IP Addres from the host it is running on.
 
@@ -56,20 +56,20 @@ To add the connection, use following information:
 
 * Name: sys@ADGHOLAD1
 * Username: sys
-* Role: Sysdba
+* Role: SYSDBA
 * Hostname: The Public IP Address you found in the step above
 * Service name: The service name you found in the step above (the part after the / (slash)).
 
 ![](./images/DB_connection_05.png)
 
-Then click the **Test** button and this connection should be succesful. When it is succesful, click the save button and click thet **Connect** button.
+Then click the **Test** button and this connection should be successful. When it is successful, click the save button and click thet **Connect** button.
 
 ![](./images/DB_connection_06.png)
 
 
 ## Create the Connection to the Standby ##
 
-First we need to know the Service name from the Standby Database and also the IP address it listens to. 
+First we need to know the service name from the standby Database and also the IP address it listens to. 
 
 To get that information, navigate to the Overview
 -> Bare Metal, VM and Exadata
@@ -83,7 +83,7 @@ There you click the **DB Connection** button and the Database Connection informa
 
 ![](./images/DB_connection_08.png)
 
-Click the **Show** Hyperlink from the Easy Connect format and make a note of the connection string. The part after the / (slash) is the Service name. Make a copy of this on the clipboard or make sure to have this information noted down. Then close this window.
+Click the **Show** Hyperlink from the Easy Connect format and make a note of the connection string. The part after the / (slash) is the service name. Make a copy of this on the clipboard or make sure to have this information noted down. Then close this window.
 
 The second thing we need to know to connect to the database is the IP Addres from the host it is running on.
 
@@ -106,15 +106,15 @@ To add the connection, use following information:
 
 * Name: sys@ADGHOLAD2
 * Username: sys
-* Role: Sysdba
+* Role: SYSDBA
 * Hostname: The Public IP Address you found in the step above
 * Service name: The service name you found in the step above (the part after the / (slash)).
 
 ![](./images/DB_connection_10.png)
 
-Then click the **Test** button and this connection should be succesful. When it is succesful, click the save button and click thet **Connect** button.
+Then click the **Test** button and this connection should be successful. When it is successful, click the save button and click thet **Connect** button.
 
 ![](./images/DB_connection_11.png)
 
 ## Summary
-You have now succesfully created a database connection to the primary and the standby database.
+You have now successfully created a database connection to the primary and the standby database.

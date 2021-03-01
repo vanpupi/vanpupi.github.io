@@ -6,6 +6,8 @@ In a cloud environment it is important to use the provided cloud tooling as much
 
 This lab will show on how to correctly change the SYS password in a Data Guard environment.
 
+Doing this right is important. When you change the SYS password in a Data Guard environment, Data Guard will propagate password changes for the SYS user to the standby database.
+
 
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. 
 

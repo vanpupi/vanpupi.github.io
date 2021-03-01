@@ -8,7 +8,7 @@ result in the loss of key business data.
 
 Data Guard maintains a copy of your data in a standby database that is continuously updated with changes from the primary database. Data Guard validates all changes before they are applied to the standby database, preventing physical corruptions that occur in the storage layer from causing data loss and downtime. The primary database automatically attempts to repair the corrupted block in real time by fetching a good version of the same block from an Active Data Guard physical standby database. This process works in both ways. 
 
-In this lab we will introduce some block corruption in the database and see Active Data Guard repairing it.
+In this lab we will introduce a block corruption in the database and see Active Data Guard repairing it.
 
 > **Warning** on copying and pasting commands with multiple lines from the browser screen; when you copy from outside of the Remote Desktop environment and paste inside the Remote Desktop environment, additional **enters** or CRLF characters are pasted causing some commands to fail. 
 
@@ -30,7 +30,7 @@ We need 4 sessions
 1. 2 sessions to the primary as the oracle user
 2. 2 sessions to the standby as the oracle user
 
-The first session will be used to perform the actions in the database, the second session per environment is used to put a tail on the alertlog.
+The first session will be used to perform the actions in the database, the second session per environment is used to put a tail on the alert log.
 
 On the first sesssion of the primary, set the environment and log on to the database
 
@@ -63,7 +63,7 @@ Session altered.
 SQL>
 ````
 
-on the second sesion, set the environment and put a tail -f on the alertlog.
+on the second sesion, set the environment and put a tail -f on the alert log.
 
 ````
 [opc@vmadgholad1 ~]$ sudo su - oracle
@@ -195,7 +195,7 @@ This will have a problem
 SQL>
 ````
 
-and in alertlog from the primary database we notice that the Automated block media recovery took place.
+and in alertlog from the primary database we notice that the automated block media recovery took place.
 
 ````
 ...

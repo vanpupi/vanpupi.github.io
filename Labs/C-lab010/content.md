@@ -49,7 +49,7 @@ And we will let the cloud create the SSH Key pair for us.
 
 ![](./images/Create_dbcs_prim_04.png)
 
-Make sure to download both of the keys **NOW** and store them locally on a safe place so you do not loose them and find them back easily.
+Make sure to download both of the keys **NOW** and store them locally on a safe place so you do not lose them and find them back easily.
 
 For the license, pick "License Included"
 
