@@ -17,6 +17,12 @@
             "description":"Setup the 19c Autonomous Data Guard using the CLI",
             "publisheddate": "08/13/2020",
             "filename":"../Labs/A-lab020/content.md"
+        },
+        {
+            "title": "Lab 3: Autonomous Data Guard Role Transition",
+            "description":"Perform a role transition on the Autonomous Data Guard with Shared Infrastructure",
+            "publisheddate": "08/13/2020",
+            "filename":"../Labs/A-lab030/content.md"
         }
     ]
 }
