@@ -12,9 +12,7 @@ This hands-on workshop focuses on **Creating Data Guard and Active Data Guard fo
 	- Oracle Cloud Infrastructure 
     	- Provided by the instructor for instructor-led workshops
     	- A HOL version is being created to run stand-alone without instructor
-	- A virtualbox environment 
-- Access to a laptop or a desktop
-    - Requires Microsoft Remote Desktop software
+- Access to a laptop or a desktop 
 
 
 ## Access the labs
@@ -31,4 +29,4 @@ This hands-on workshop focuses on **Creating Data Guard and Active Data Guard fo
 ## Acknowledgements ##
 
 - **Author** - Pieter Van Puymbroeck, Product Manager Data Guard, Active Data Guard and Flashback Technologies
-- **Special thanks to** - Robert Pastijn, Database Product Management, PTS EMEA - April 2020
+- **Special thanks to** - Robert Pastijn, Database Product Management, PTS EMEA
